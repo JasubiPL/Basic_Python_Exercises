@@ -22,6 +22,14 @@ print(f"Hay { total_words } palabras en la frase")
 
 # 3 Mostrar primera y ultima letra de la frase
 
+print(f"La primera letra de la frase es  {phrase[0]} y la ultima es {phrase[-1]}")
+
 # 4 Mostrar palabras en Orden reverso
 
-# 5 Verificar que la palabra 'Python' aparezca  
+print(f"Las palabras al reverso serian {phrase.split()[::-1]}")
+
+# 5 Verificar que la palabra 'Python' aparezca 
+if("python" in phrase.lower()) :
+  print(f"La palabra Python aparece en la frase")
+else :
+  print(f"La palabra Python no aparece en la frase")
